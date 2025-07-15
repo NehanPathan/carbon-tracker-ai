@@ -53,7 +53,7 @@ A simple Python application that helps users track their daily carbon footprint 
 
 ## 📂 Project Structure
 
-```
+
 
 carbon-tracker-ai/
 │
@@ -66,7 +66,7 @@ carbon-tracker-ai/
 ├── README.md
 └── (optional) Streamlit version
 
-````
+
 
 ---
 
@@ -76,39 +76,35 @@ carbon-tracker-ai/
 ```bash
 git clone https://github.com/your-username/carbon-tracker-ai.git
 cd carbon-tracker-ai
-````
+
 
 ### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-```
+
 
 ### 3. Add Your Gemini API Key
 
 Replace in `main.py`:
 
-```python
 genai.configure(api_key="YOUR_API_KEY")
-```
+
 
 ### 4. Run the App (Console Mode)
 
-```bash
 python main.py
-```
+
 
 ### (Optional) Run Streamlit App
 
-```bash
 python -m streamlit run main.py
-```
 
----
+
+
 
 ## 📌 Example Gemini Prompt
 
-```text
 The user submitted the following raw activity data:
 {inputs}
 
@@ -116,7 +112,7 @@ This results in the following carbon emissions breakdown (in kg CO₂e):
 {breakdown}
 
 Based on both of these, suggest 3 personalized tips to reduce their carbon footprint.
-```
+
 
 ---
 
