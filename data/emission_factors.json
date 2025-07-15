@@ -1,0 +1,8 @@
+{
+  "car": 0.165,
+  "bus": 0.087,
+  "train": 0.040,
+  "veg_meal": 1.2,
+  "nonveg_meal": 3.7,
+  "ac_hour": 0.206
+}
