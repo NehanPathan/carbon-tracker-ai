@@ -22,8 +22,8 @@ A simple Python application that helps users track their daily carbon footprint 
 
 ## 📸 Demo
 
-| Terminal Mode                            | Streamlit Mode (optional)            |
-|-----------------------------------------|--------------------------------------|
+| Terminal Mode                              | Streamlit Mode (optional)               |
+|--------------------------------------------|-----------------------------------------|
 | ![Console Output](screenshots/console.png) | ![Streamlit Output](screenshots/ui.png) |
 
 ---
@@ -40,7 +40,7 @@ A simple Python application that helps users track their daily carbon footprint 
 
 ## 📊 Emission Factors Used
 
-| Activity      | Emission Factor         |
+| Activity      | Emission Factor          |
 |---------------|--------------------------|
 | Car Travel    | 0.165 kg CO₂/km          |
 | Bus Travel    | 0.087 kg CO₂/km          |
@@ -73,14 +73,14 @@ carbon-tracker-ai/
 ## 🧪 How to Run
 
 ### 1. Clone the Repo
-```bash
+
 git clone https://github.com/your-username/carbon-tracker-ai.git
 cd carbon-tracker-ai
 
 
 ### 2. Install Dependencies
 
-```bash
+
 pip install -r requirements.txt
 
 
